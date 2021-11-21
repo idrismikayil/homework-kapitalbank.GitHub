@@ -1,0 +1,148 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.chatting {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  width: 65px;
+  height: 65px;
+  background-color: #f45369;
+  border-radius: 50%;
+}
+
+.chatting i {
+  position: absolute;
+  left: 18px;
+  top: 15px;
+  font-size: xx-large;
+  color: white;
+}
+
+main {
+  margin-top: 15px;
+}
+
+main .about .container .title h2 {
+  margin-bottom: 0px;
+}
+
+main .about .container .text {
+  width: 795px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+main .about .container .options ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+main .about .container .options ul li {
+  margin-right: 15px;
+}
+
+main .about .container .options ul li .btn {
+  background-color: #e8ecf1;
+  border-radius: 37px;
+}
+
+main .about .container .options ul li .red {
+  background-color: #f45369;
+  color: white;
+}
+
+main .popular-card {
+  padding-top: 30px;
+}
+
+main .popular-card .container {
+  border: 1px solid #eaeaea;
+  background-color: #f9fafb;
+  border-radius: 15px;
+  height: 357px;
+}
+
+main .popular-card .container .row .col-lg-4.left {
+  padding-top: 85px;
+  padding-left: 50px;
+}
+
+main .popular-card .container .row .col-lg-4.left img {
+  width: 277px;
+  height: 180px;
+}
+
+main .popular-card .container .row .col-lg-8 .popular {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 32px;
+}
+
+main .popular-card .container .row .col-lg-8 .popular i {
+  color: #ff0023;
+}
+
+main .popular-card .container .row .col-lg-8 .popular h6 {
+  color: #ff0023;
+  margin-left: 10px;
+}
+
+main .popular-card .container .row .col-lg-8 .card-name {
+  padding-top: 20px;
+}
+
+main .popular-card .container .row .col-lg-8 .card-name h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+main .popular-card .container .row .col-lg-8 .about-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+}
+
+main .popular-card .container .row .col-lg-8 .about-card .card-price {
+  margin-right: 100px;
+}
+
+main .popular-card .container .row .col-lg-8 .about-card .partners {
+  margin-right: 100px;
+}
+
+main .popular-card .container .row .col-lg-8 .order-card {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .popular-card .container .row .col-lg-8 .order-card .order-button .btn {
+  background-color: #f45369;
+  width: 280px;
+  height: 55px;
+  border-radius: 8px;
+  color: white;
+}
+
+main .popular-card .container .row .col-lg-8 .order-card .more {
+  padding-top: 11px;
+  padding-left: 32px;
+}
+
+main .popular-card .container .row .col-lg-8 .order-card .more a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

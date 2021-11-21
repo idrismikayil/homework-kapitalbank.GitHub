@@ -1,0 +1,263 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.chatting {
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+    width: 65px;
+    height: 65px;
+    background-color: #f45369;
+    border-radius: 50%;
+
+
+    i {
+        position: absolute;
+        left: 18px;
+        top: 15px;
+        font-size: xx-large;
+        color: white;
+    }
+}
+
+
+main {
+    margin-top: 15px;
+
+    .about {
+        .container {
+
+            .title {
+
+                h2 {
+                    margin-bottom: 0px;
+                }
+            }
+
+            .text {
+                width: 795px;
+                padding-top: 17px;
+                padding-bottom: 17px;
+
+                p {}
+            }
+
+            .options {
+                ul {
+                    display: flex;
+                    list-style: none;
+                    padding-left: 0px;
+                    margin-bottom: 0px;
+
+                    li {
+                        margin-right: 15px;
+
+                        .btn {
+                            background-color: #e8ecf1;
+                            border-radius: 37px;
+                        }
+
+                        .red {
+                            background-color: #f45369;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .popular-card {
+        padding-top: 30px;
+
+        .container {
+
+            border: 1px solid #eaeaea;
+            background-color: #f9fafb;
+            border-radius: 15px;
+            height: 357px;
+
+            .row {
+
+                .col-lg-4.left {
+                    padding-top: 85px;
+                    padding-left: 50px;
+
+
+                    img {
+                        width: 277px;
+                        height: 180px;
+                    }
+                }
+
+                .col-lg-8 {
+                    .popular {
+                        display: flex;
+                        padding-top: 32px;
+
+                        i {
+                            color: #ff0023;
+                        }
+
+                        h6 {
+                            color: #ff0023;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .card-name {
+                        padding-top: 20px;
+
+                        h3 {
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+
+                    .about-card {
+                        display: flex;
+                        padding-top: 40px;
+
+
+                        .card-price {
+                            margin-right: 100px;
+                        }
+
+                        .partners {
+                            margin-right: 100px;
+                        }
+
+                        .hire-purchase {}
+
+                    }
+
+                    .order-card {
+                        padding-top: 60px;
+                        display: flex;
+
+                        .order-button {
+
+                            .btn {
+                                background-color: #f45369;
+                                width: 280px;
+                                height: 55px;
+                                border-radius: 8px;
+                                color: white;
+                            }
+
+                        }
+
+
+                        .more {
+                            padding-top: 11px;
+                            padding-left: 32px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    .cards {
+        .container {
+            .installment-cards {
+                .card-title {}
+
+                .row {
+                    .col-lg-4.card-box {
+                        .card-image {}
+
+                        .card-name {}
+
+                        .about-card {}
+
+                        .bottom-place {
+                            .order-button {}
+
+                            .more {}
+                        }
+                    }
+                }
+            }
+
+            .debet-cards {
+                .card-title {}
+
+                .row {
+                    .col-lg-4.card-box {
+                        .card-image {}
+
+                        .card-name {}
+
+                        .about-card {}
+
+                        .bottom-place {
+                            .order-button {}
+
+                            .more {}
+                        }
+                    }
+                }
+
+                .card-title {}
+
+                .row {
+                    .col-lg-4.card-box {
+                        .card-image {}
+
+                        .card-name {}
+
+                        .about-card {}
+
+                        .more {}
+                    }
+                }
+            }
+
+            .digital-card {
+                .card-title {}
+
+                .row {
+                    .col-lg-4.card-box {
+                        .card-image {}
+
+                        .card-name {}
+
+                        .about-card {}
+
+                        .more {}
+                    }
+                }
+            }
+
+            .gift-card {
+                .card-title {}
+
+                .row {
+                    .col-lg-4.card-box {
+                        .card-image {}
+
+                        .card-name {}
+
+                        .about-card {}
+
+                        .more {}
+                    }
+                }
+            }
+        }
+    }
+
+}
