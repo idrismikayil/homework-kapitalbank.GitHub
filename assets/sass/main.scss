@@ -1,3 +1,8 @@
+$primary-color: #f45369;
+$secondary-color: #ff0023;
+$box-color:#f9fafb ;
+$box-border-color: #eaeaea;
+
 * {
     margin: 0px;
     padding: 0px;
@@ -10,7 +15,7 @@
     right: 35px;
     width: 65px;
     height: 65px;
-    background-color: #f45369;
+    background-color: $primary-color;
     border-radius: 50%;
 
 
@@ -22,7 +27,6 @@
         color: white;
     }
 }
-
 
 main {
     margin-top: 15px;
@@ -61,7 +65,7 @@ main {
                         }
 
                         .red {
-                            background-color: #f45369;
+                            background-color: $primary-color;
                             color: white;
                         }
                     }
@@ -75,8 +79,8 @@ main {
 
         .container {
 
-            border: 1px solid #eaeaea;
-            background-color: #f9fafb;
+            border: 1px solid $box-border-color;
+            background-color: $box-color;
             border-radius: 15px;
             height: 357px;
 
@@ -99,11 +103,11 @@ main {
                         padding-top: 32px;
 
                         i {
-                            color: #ff0023;
+                            color: $secondary-color;
                         }
 
                         h6 {
-                            color: #ff0023;
+                            color: $secondary-color;
                             margin-left: 10px;
                         }
                     }
@@ -143,7 +147,7 @@ main {
                         .order-button {
 
                             .btn {
-                                background-color: #f45369;
+                                background-color: $primary-color;
                                 width: 280px;
                                 height: 55px;
                                 border-radius: 8px;
@@ -171,92 +175,325 @@ main {
     }
 
     .cards {
+
         .container {
+
+            .card-title {
+                padding-bottom: 75px;
+                margin-top: 40px;
+            }
+
             .installment-cards {
-                .card-title {}
 
                 .row {
                     .col-lg-4.card-box {
-                        .card-image {}
 
-                        .card-name {}
+                        width: 30%;
+                        margin-right: 3%;
+                        border-radius: 15px;
+                        background-color: $box-color;
+                        height: 250px;
+                        padding: 0px;
 
-                        .about-card {}
+
+                        .card-image {
+                            padding: 0px 30px;
+
+                            a {
+                                img {
+                                    width: 150px;
+                                    height: 98px;
+                                    margin-top: -48px;
+                                }
+                            }
+                        }
+
+                        .card-name {
+                            margin-top: 25px;
+                            padding: 0px 30px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+
+                            }
+                        }
+
+                        .about-card {
+                            padding: 0px 17px;
+
+                            ul {
+                                padding-top: 9px;
+                                list-style: none;
+                                li::before {
+                                    content: "\2022";
+                                    color: $primary-color;
+                                    font-weight: bold;
+                                    display: inline-block; 
+                                    width: 1em;
+                                    margin-left: -1em;
+                                }
+                            }
+                        }
+
 
                         .bottom-place {
-                            .order-button {}
+                            margin-top: 40px;
+                            margin-left: 15px;
+                            padding-left: 18px;
 
-                            .more {}
+                            .col-lg-4 {
+
+                                a {
+                                    text-decoration: none;
+                                    color: $primary-color;
+                                }
+                            }
+
+                            .col-lg-8.more {
+
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                            }
                         }
                     }
                 }
             }
 
             .debet-cards {
-                .card-title {}
 
                 .row {
                     .col-lg-4.card-box {
-                        .card-image {}
 
-                        .card-name {}
+                        width: 30%;
+                        margin-right: 3%;
+                        border-radius: 15px;
+                        background-color: $box-color;
+                        height: 250px;
+                        padding: 0px;
+                        margin-bottom: 80px;
 
-                        .about-card {}
+
+                        .card-image {
+                            padding: 0px 30px;
+
+                            a {
+                                img {
+                                    width: 150px;
+                                    height: 98px;
+                                    margin-top: -48px;
+                                }
+                            }
+                        }
+
+                        .card-name {
+                            margin-top: 25px;
+                            padding: 0px 30px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+
+                            }
+                        }
+
+                        .about-card {
+                            padding: 0px 17px;
+
+                            ul {
+                                padding-top: 9px;
+                                list-style: none;
+                                li::before {
+                                    content: "\2022";
+                                    color: $primary-color;
+                                    font-weight: bold;
+                                    display: inline-block; 
+                                    width: 1em;
+                                    margin-left: -1em;
+                                }
+                            }
+                        }
+
 
                         .bottom-place {
-                            .order-button {}
+                            margin-top: 40px;
+                            margin-left: 15px;
+                            padding-left: 18px;
 
-                            .more {}
+                            .col-lg-4 {
+
+                                a {
+                                    text-decoration: none;
+                                    color: $primary-color;
+                                }
+                            }
+
+                            .col-lg-8.more {
+
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                }
+                            }
                         }
                     }
                 }
 
-                .card-title {}
 
                 .row {
-                    .col-lg-4.card-box {
-                        .card-image {}
+                    .col-lg-4.card-box.only-more {
+                        margin-bottom: 0px;
 
-                        .card-name {}
+                        .more {
+                            margin-top: 40px;
+                            margin-left: 15px;
+                            padding-left: 18px;
 
-                        .about-card {}
+                            a {
 
-                        .more {}
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
                     }
                 }
             }
 
-            .digital-card {
-                .card-title {}
-
+            .digital-card{
                 .row {
                     .col-lg-4.card-box {
-                        .card-image {}
+                       
+                        width: 30%;
+                        margin-right: 3%;
+                        border-radius: 15px;
+                        background-color: #f9fafb;
+                        height: 250px;
+                        padding: 0px;
 
-                        .card-name {}
+                        .card-image {
+                            padding: 0px 30px;
 
-                        .about-card {}
+                            a {
+                                img {
+                                    width: 150px;
+                                    height: 98px;
+                                    margin-top: -48px;
+                                }
+                            }
+                        }
 
-                        .more {}
+                        .card-name {
+                            margin-top: 25px;
+                            padding: 0px 30px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+
+                            }
+                        }
+
+                        .about-card {
+                            padding: 0px 17px;
+
+                            ul {
+                                padding-top: 9px;
+                                list-style: none;
+                                li::before {
+                                    content: "\2022";
+                                    color: $primary-color;
+                                    font-weight: bold;
+                                    display: inline-block; 
+                                    width: 1em;
+                                    margin-left: -1em;
+                                }
+                            }
+                        }
+
+                        .more {
+                            margin-top: 40px;
+                            margin-left: 15px;
+                            padding-left: 18px;
+
+                            a {
+
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                
+
+            }
+            .gift-card{
+                .row {
+                    .col-lg-4.card-box {
+                       
+                        width: 30%;
+                        margin-right: 3%;
+                        border-radius: 15px;
+                        background-color: #f9fafb;
+                        height: 250px;
+                        padding: 0px;
+
+                        .card-image {
+                            padding: 0px 30px;
+
+                            a {
+                                img {
+                                    width: 150px;
+                                    height: 98px;
+                                    margin-top: -48px;
+                                }
+                            }
+                        }
+
+                        .card-name {
+                            margin-top: 25px;
+                            padding: 0px 30px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+
+                            }
+                        }
+
+                        .about-card {
+                            padding: 0px 17px;
+
+                            ul {
+                                padding-top: 9px;
+                                list-style: none;
+                                li::before {
+                                    content: "\2022";
+                                    color: $primary-color;
+                                    font-weight: bold;
+                                    display: inline-block; 
+                                    width: 1em;
+                                    margin-left: -1em;
+                                }
+                            }
+                        }
+
+                        .more {
+                            margin-top: 40px;
+                            margin-left: 15px;
+                            padding-left: 18px;
+
+                            a {
+
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
                     }
                 }
             }
 
-            .gift-card {
-                .card-title {}
-
-                .row {
-                    .col-lg-4.card-box {
-                        .card-image {}
-
-                        .card-name {}
-
-                        .about-card {}
-
-                        .more {}
-                    }
-                }
-            }
         }
     }
 

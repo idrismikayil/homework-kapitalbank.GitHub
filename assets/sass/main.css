@@ -145,4 +145,267 @@ main .popular-card .container .row .col-lg-8 .order-card .more a {
   text-decoration: none;
   color: black;
 }
+
+main .cards .container .card-title {
+  padding-bottom: 75px;
+  margin-top: 40px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box {
+  width: 30%;
+  margin-right: 3%;
+  border-radius: 15px;
+  background-color: #f9fafb;
+  height: 250px;
+  padding: 0px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .card-image {
+  padding: 0px 30px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .card-image a img {
+  width: 150px;
+  height: 98px;
+  margin-top: -48px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .card-name {
+  margin-top: 25px;
+  padding: 0px 30px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .card-name a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .about-card {
+  padding: 0px 17px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .about-card ul {
+  padding-top: 9px;
+  list-style: none;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .about-card ul li::before {
+  content: "\2022";
+  color: #f45369;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place {
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-left: 18px;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place .col-lg-4 a {
+  text-decoration: none;
+  color: #f45369;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place .col-lg-8.more a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box {
+  width: 30%;
+  margin-right: 3%;
+  border-radius: 15px;
+  background-color: #f9fafb;
+  height: 250px;
+  padding: 0px;
+  margin-bottom: 80px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .card-image {
+  padding: 0px 30px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .card-image a img {
+  width: 150px;
+  height: 98px;
+  margin-top: -48px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .card-name {
+  margin-top: 25px;
+  padding: 0px 30px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .card-name a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .about-card {
+  padding: 0px 17px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .about-card ul {
+  padding-top: 9px;
+  list-style: none;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .about-card ul li::before {
+  content: "\2022";
+  color: #f45369;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place {
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-left: 18px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place .col-lg-4 a {
+  text-decoration: none;
+  color: #f45369;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place .col-lg-8.more a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box.only-more {
+  margin-bottom: 0px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box.only-more .more {
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-left: 18px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box.only-more .more a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box {
+  width: 30%;
+  margin-right: 3%;
+  border-radius: 15px;
+  background-color: #f9fafb;
+  height: 250px;
+  padding: 0px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .card-image {
+  padding: 0px 30px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .card-image a img {
+  width: 150px;
+  height: 98px;
+  margin-top: -48px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .card-name {
+  margin-top: 25px;
+  padding: 0px 30px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .card-name a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .about-card {
+  padding: 0px 17px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .about-card ul {
+  padding-top: 9px;
+  list-style: none;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .about-card ul li::before {
+  content: "\2022";
+  color: #f45369;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .more {
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-left: 18px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .more a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box {
+  width: 30%;
+  margin-right: 3%;
+  border-radius: 15px;
+  background-color: #f9fafb;
+  height: 250px;
+  padding: 0px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .card-image {
+  padding: 0px 30px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .card-image a img {
+  width: 150px;
+  height: 98px;
+  margin-top: -48px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .card-name {
+  margin-top: 25px;
+  padding: 0px 30px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .card-name a {
+  text-decoration: none;
+  color: black;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .about-card {
+  padding: 0px 17px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .about-card ul {
+  padding-top: 9px;
+  list-style: none;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .about-card ul li::before {
+  content: "\2022";
+  color: #f45369;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .more {
+  margin-top: 40px;
+  margin-left: 15px;
+  padding-left: 18px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .more a {
+  text-decoration: none;
+  color: black;
+}
 /*# sourceMappingURL=main.css.map */
