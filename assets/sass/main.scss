@@ -1,6 +1,6 @@
 $primary-color: #f45369;
 $secondary-color: #ff0023;
-$box-color:#f9fafb ;
+$box-color:#f9fafb;
 $box-border-color: #eaeaea;
 
 * {
@@ -134,7 +134,7 @@ main {
                             margin-right: 100px;
                         }
 
-                        
+
 
                     }
 
@@ -150,10 +150,15 @@ main {
                                 height: 55px;
                                 border-radius: 8px;
                                 color: white;
+                                transition: 0.3s;
+
+                                &:hover {
+                                    background-color: $secondary-color;
+                                }
                             }
 
-                        }
 
+                        }
 
                         .more {
                             padding-top: 11px;
@@ -223,11 +228,12 @@ main {
                             ul {
                                 padding-top: 9px;
                                 list-style: none;
+
                                 li::before {
                                     content: "\2022";
                                     color: $primary-color;
                                     font-weight: bold;
-                                    display: inline-block; 
+                                    display: inline-block;
                                     width: 1em;
                                     margin-left: -1em;
                                 }
@@ -236,23 +242,33 @@ main {
 
 
                         .bottom-place {
-                            margin-top: 40px;
-                            margin-left: 15px;
-                            padding-left: 18px;
+                            margin-top: 24px;
+                            margin-left: 0px;
+                            padding-left: 0px;
+                            border-top: 1px solid $box-border-color;
 
                             .col-lg-4 {
+                                margin-top: 13px;
+                                border-right: 1px solid $box-border-color;
 
                                 a {
+                                    padding-left: 30px;
+                                    padding-right: 0px;
+
+
                                     text-decoration: none;
                                     color: $primary-color;
                                 }
                             }
 
                             .col-lg-8.more {
+                                margin-top: 13px;
+
 
                                 a {
                                     text-decoration: none;
                                     color: black;
+                                    padding-left: 18px;
                                 }
                             }
                         }
@@ -303,11 +319,12 @@ main {
                             ul {
                                 padding-top: 9px;
                                 list-style: none;
+
                                 li::before {
                                     content: "\2022";
                                     color: $primary-color;
                                     font-weight: bold;
-                                    display: inline-block; 
+                                    display: inline-block;
                                     width: 1em;
                                     margin-left: -1em;
                                 }
@@ -316,23 +333,30 @@ main {
 
 
                         .bottom-place {
-                            margin-top: 40px;
-                            margin-left: 15px;
-                            padding-left: 18px;
+                            margin-top: 24px;
+                            margin-left: 0px;
+                            padding-left: 0px;
+                            border-top: 1px solid $box-border-color;
 
                             .col-lg-4 {
+                                margin-top: 13px;
+                                border-right: 1px solid $box-border-color;
 
                                 a {
+                                    padding-left: 30px;
+                                    padding-right: 0px;
                                     text-decoration: none;
                                     color: $primary-color;
                                 }
                             }
 
                             .col-lg-8.more {
+                                margin-top: 13px;
 
                                 a {
                                     text-decoration: none;
                                     color: black;
+                                    padding-left: 18px;
                                 }
                             }
                         }
@@ -345,24 +369,34 @@ main {
                         margin-bottom: 0px;
 
                         .more {
-                            margin-top: 40px;
-                            margin-left: 15px;
-                            padding-left: 18px;
+                            margin-top: 24px;
+                            margin-left: 0px;
+                            border-top: 1px solid $box-border-color;
+                            transition: 0.3s;
 
-                            a {
+                            .link {
+                                margin-top: 13px;
 
-                                text-decoration: none;
-                                color: black;
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                    padding-left: 30px;
+                                }
+
                             }
+
+                            // &:hover {
+                            //     background-color: $primary-color;
+                            // }
                         }
                     }
                 }
             }
 
-            .digital-card{
+            .digital-card {
                 .row {
                     .col-lg-4.card-box {
-                       
+
                         width: 30%;
                         margin-right: 3%;
                         border-radius: 15px;
@@ -399,11 +433,12 @@ main {
                             ul {
                                 padding-top: 9px;
                                 list-style: none;
+
                                 li::before {
                                     content: "\2022";
                                     color: $primary-color;
                                     font-weight: bold;
-                                    display: inline-block; 
+                                    display: inline-block;
                                     width: 1em;
                                     margin-left: -1em;
                                 }
@@ -411,25 +446,37 @@ main {
                         }
 
                         .more {
-                            margin-top: 40px;
-                            margin-left: 15px;
-                            padding-left: 18px;
+                            margin-top: 24px;
+                            margin-left: 0px;
 
-                            a {
+                            border-top: 1px solid $box-border-color;
+                            transition: 0.3s;
 
-                                text-decoration: none;
-                                color: black;
+                            .link {
+                                margin-top: 13px;
+
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                    padding-left: 30px;
+                                }
+
                             }
+
+                            // &:hover {
+                            //     background-color: $primary-color;
+                            // }
                         }
                     }
                 }
-                
+
 
             }
-            .gift-card{
+
+            .gift-card {
                 .row {
                     .col-lg-4.card-box {
-                       
+
                         width: 30%;
                         margin-right: 3%;
                         border-radius: 15px;
@@ -466,11 +513,12 @@ main {
                             ul {
                                 padding-top: 9px;
                                 list-style: none;
+
                                 li::before {
                                     content: "\2022";
                                     color: $primary-color;
                                     font-weight: bold;
-                                    display: inline-block; 
+                                    display: inline-block;
                                     width: 1em;
                                     margin-left: -1em;
                                 }
@@ -478,15 +526,26 @@ main {
                         }
 
                         .more {
-                            margin-top: 40px;
-                            margin-left: 15px;
-                            padding-left: 18px;
+                            margin-top: 24px;
+                            margin-left: 0px;
 
-                            a {
+                            border-top: 1px solid $box-border-color;
+                            transition: 0.3s;
 
-                                text-decoration: none;
-                                color: black;
+                            .link {
+                                margin-top: 13px;
+
+                                a {
+                                    text-decoration: none;
+                                    color: black;
+                                    padding-left: 30px;
+                                }
+
                             }
+
+                            // &:hover {
+                            //     background-color: $primary-color;
+                            // }
                         }
                     }
                 }
@@ -496,3 +555,7 @@ main {
     }
 
 }
+
+// @media screen and (max-width: 640px) {
+//     .col-lg-4 {}
+// }

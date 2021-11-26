@@ -134,6 +134,12 @@ main .popular-card .container .row .col-lg-8 .order-card .order-button .btn {
   height: 55px;
   border-radius: 8px;
   color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main .popular-card .container .row .col-lg-8 .order-card .order-button .btn:hover {
+  background-color: #ff0023;
 }
 
 main .popular-card .container .row .col-lg-8 .order-card .more {
@@ -199,19 +205,32 @@ main .cards .container .installment-cards .row .col-lg-4.card-box .about-card ul
 }
 
 main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place {
-  margin-top: 40px;
-  margin-left: 15px;
-  padding-left: 18px;
+  margin-top: 24px;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-top: 1px solid #eaeaea;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place .col-lg-4 {
+  margin-top: 13px;
+  border-right: 1px solid #eaeaea;
 }
 
 main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place .col-lg-4 a {
+  padding-left: 30px;
+  padding-right: 0px;
   text-decoration: none;
   color: #f45369;
+}
+
+main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place .col-lg-8.more {
+  margin-top: 13px;
 }
 
 main .cards .container .installment-cards .row .col-lg-4.card-box .bottom-place .col-lg-8.more a {
   text-decoration: none;
   color: black;
+  padding-left: 18px;
 }
 
 main .cards .container .debet-cards .row .col-lg-4.card-box {
@@ -263,19 +282,32 @@ main .cards .container .debet-cards .row .col-lg-4.card-box .about-card ul li::b
 }
 
 main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place {
-  margin-top: 40px;
-  margin-left: 15px;
-  padding-left: 18px;
+  margin-top: 24px;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-top: 1px solid #eaeaea;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place .col-lg-4 {
+  margin-top: 13px;
+  border-right: 1px solid #eaeaea;
 }
 
 main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place .col-lg-4 a {
+  padding-left: 30px;
+  padding-right: 0px;
   text-decoration: none;
   color: #f45369;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place .col-lg-8.more {
+  margin-top: 13px;
 }
 
 main .cards .container .debet-cards .row .col-lg-4.card-box .bottom-place .col-lg-8.more a {
   text-decoration: none;
   color: black;
+  padding-left: 18px;
 }
 
 main .cards .container .debet-cards .row .col-lg-4.card-box.only-more {
@@ -283,14 +315,21 @@ main .cards .container .debet-cards .row .col-lg-4.card-box.only-more {
 }
 
 main .cards .container .debet-cards .row .col-lg-4.card-box.only-more .more {
-  margin-top: 40px;
-  margin-left: 15px;
-  padding-left: 18px;
+  margin-top: 24px;
+  margin-left: 0px;
+  border-top: 1px solid #eaeaea;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-main .cards .container .debet-cards .row .col-lg-4.card-box.only-more .more a {
+main .cards .container .debet-cards .row .col-lg-4.card-box.only-more .more .link {
+  margin-top: 13px;
+}
+
+main .cards .container .debet-cards .row .col-lg-4.card-box.only-more .more .link a {
   text-decoration: none;
   color: black;
+  padding-left: 30px;
 }
 
 main .cards .container .digital-card .row .col-lg-4.card-box {
@@ -341,14 +380,21 @@ main .cards .container .digital-card .row .col-lg-4.card-box .about-card ul li::
 }
 
 main .cards .container .digital-card .row .col-lg-4.card-box .more {
-  margin-top: 40px;
-  margin-left: 15px;
-  padding-left: 18px;
+  margin-top: 24px;
+  margin-left: 0px;
+  border-top: 1px solid #eaeaea;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-main .cards .container .digital-card .row .col-lg-4.card-box .more a {
+main .cards .container .digital-card .row .col-lg-4.card-box .more .link {
+  margin-top: 13px;
+}
+
+main .cards .container .digital-card .row .col-lg-4.card-box .more .link a {
   text-decoration: none;
   color: black;
+  padding-left: 30px;
 }
 
 main .cards .container .gift-card .row .col-lg-4.card-box {
@@ -399,13 +445,20 @@ main .cards .container .gift-card .row .col-lg-4.card-box .about-card ul li::bef
 }
 
 main .cards .container .gift-card .row .col-lg-4.card-box .more {
-  margin-top: 40px;
-  margin-left: 15px;
-  padding-left: 18px;
+  margin-top: 24px;
+  margin-left: 0px;
+  border-top: 1px solid #eaeaea;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-main .cards .container .gift-card .row .col-lg-4.card-box .more a {
+main .cards .container .gift-card .row .col-lg-4.card-box .more .link {
+  margin-top: 13px;
+}
+
+main .cards .container .gift-card .row .col-lg-4.card-box .more .link a {
   text-decoration: none;
   color: black;
+  padding-left: 30px;
 }
 /*# sourceMappingURL=main.css.map */
